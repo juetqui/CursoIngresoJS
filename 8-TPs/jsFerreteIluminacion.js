@@ -78,7 +78,11 @@ function CalcularPrecio ()
  		}
  	}
 
-
  	PrecioFinal=PrecioBruto - PrecioBruto*descuento/100;
+
+ 	if(PrecioFinal>120)
+ 	{
+ 		
+ 	}
  	console.info("Precio Final= ",PrecioFinal);
 }
